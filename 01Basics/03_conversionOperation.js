@@ -33,12 +33,12 @@ let negValue = -value;
 // console.log(negValue);
 
 
-// console.log(2+2);
-// console.log(2-2);
-// console.log(2*2);
-// console.log(2**3);
-// console.log(2/3);
-// console.log(2%3);
+// console.log(2+2);  //output => 4
+// console.log(2-2); //output => 0
+// console.log(2*2); //output => 4
+// console.log(2**3); //output => 8
+// console.log(2/3); //output => 0.66
+// console.log(2%3); //output => 2
 
 let str1 = "Hello ";
 let str2 = " Shakeel";
