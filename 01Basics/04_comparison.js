@@ -17,4 +17,4 @@
 
 // === is check is dataType check
 
-console.log("2" === 2); //Output => false
+//console.log("2" === 2); //Output => false
