@@ -1,0 +1,11 @@
+const score = 400
+const balance  = new Number(100);
+console.log(score);//output => 400
+console.log(balance);//output => [Number: 100]
+console.log(balance.toString());//output => 100
+console.log(balance.toFixed(2));//output => 100.00
+console.log(balance.toPrecision(2));//output => 1.0e+2
+console.log(balance.toExponential(2));//output => 1.00e+2
+console.log(balance.toLocaleString(2));//output => 100
+console.log(Number.isInteger(score));//output => true
+console.log(Number.isInteger(balance)); //output => false
