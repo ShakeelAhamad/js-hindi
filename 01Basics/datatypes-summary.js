@@ -41,3 +41,30 @@ const myFunction = function(){
 //console.log(typeof myObj) //Output => object;
 //console.log(typeof heros) //Output => object;
 // https://262.ecma-international.org/5.1/#sec-11.4.
+
+
+//++++++++++++++++++++++++++++++++++ Memory Type ++++++++++++++++++++++++++++
+//1) Stack (Primitive) 
+//Stack Memory =>  Primitive data types,it will take value as copy so when we change the value of variable it will not affect the original value.
+//Example Stack (Primitive) 
+let myCollageName = "Govt. Polytechnic Mau." //Primitive type stored in stack memory
+let anotherName = myCollageName;//A copy of the value is created in the Stack
+anotherName = "User Collage"//New Value assigned to anotherName
+// console.log("anotherName::",anotherName);//Output => User Collage
+// console.log("myCollageName::",myCollageName);//Output => Govt. Polytechnic Mau.
+
+
+
+//2) Heap (Non-Primitive)
+//Heap Memory => Non-primitive data types,it will take value as reference so when we change the value of a variable it will affect the original value.
+//Example Heap (Non-Primitive)
+let userOne = {
+    email :"user@one.com",
+    upi:"userOne@ybl"
+} //Heap Memory
+
+let userTow = userOne;//Copying reference of object userOne to  userTow
+userTow.email = "shakeel@gmail.com";//Modifying to userTow object
+//console.log(userTow.email); //Output => shakeel@gmail.com
+//console.log(userOne.email); //OutPut => shakeel@gmail.com
+
