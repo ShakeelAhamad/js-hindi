@@ -52,3 +52,13 @@ const users = [
 // console.log(Object.values(tinderUser));//Output => [ 101, 'Sammy', false ]
 // console.log(Object.entries(tinderUser));//Output => [ [ 'id', 101 ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true
+
+
+const course = {
+    username:"js in hindi",
+    price:299,
+    courseInstructor:"Shakeel"
+}
+// course.courseInstructor
+const {username,courseInstructor:instructor} = course;
+console.log(instructor);
