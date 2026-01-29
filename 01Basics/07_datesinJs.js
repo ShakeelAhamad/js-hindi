@@ -1,0 +1,33 @@
+//Dates
+let myDate = new Date();
+// console.log(myDate);//Output => 2026-01-29T05:40:27.132Z
+// console.log(myDate.toString())//Output is => Thu Jan 29 2026 05:40:27 GMT+0000 (Coordinated Universal Time)
+// console.log(myDate.toDateString())//Output is => Thu Jan 29 2026
+// console.log(myDate.toISOString())//Output is => 2026-01-29T05:40:27.132Z
+// console.log(myDate.toJSON())//Output is => 2026-01-29T05:40:27.132Z
+// console.log(myDate.toLocaleDateString())//Output is => 1/29/2026
+// console.log(myDate.toLocaleString())//Output is => 1/29/2026, 5:40:27 AM
+// console.log(myDate.toLocaleTimeString())//Output is => 5:40:27 AM
+// console.log(myDate.toTimeString())//Output is => 05:40:27 GMT+0000 (Coordinated Universal Time)
+// console.log(myDate.toUTCString())//Output is => Thu, 29 Jan 2026 05:40:27 GMT
+// console.log(typeof myDate);//Output => object
+// let myCreatedDate = new Date(2024, 0 , 23);
+// console.log(myCreatedDate.toDateString());//output => Tue Jan 23 2024
+// let myCreatedDate = new Date(2024, 0 , 23, 5, 3);
+// console.log(myCreatedDate.toLocaleString());//Output => 1/23/2024, 5:03:00 AM
+// let myCreatedDate = new Date("2024-01-15");
+// console.log(myCreatedDate.toLocaleString());//Output => 1/15/2024, 12:00:00 AM
+// let myCreatedDate = new Date("01-14-2024");
+// console.log(myCreatedDate.toLocaleString());//Output => 1/14/2024, 12:00:00 AM
+// let myCreatedDate = new Date("01-14-2024");
+// let currentTimeStamp = Date.now();
+//console.log(currentTimeStamp);//otuput => 1769665984550
+//console.log(myCreatedDate.getTime());//otuput => 1705190400000
+//console.log(Math.floor(Date.now()/1000));//otuput => 1769666222
+
+let newDate = new Date();
+// console.log(newDate.getDate());//output=>29 current date
+// console.log(newDate.getDay());//get current days  output => 4
+// console.log(newDate.getMonth());//get current month output => 0
+// console.log(newDate.getFullYear());//get current full year output => 2026
+// console.log(newDate.toLocaleString('default',{weekday : "short"}));//output is => Thu
